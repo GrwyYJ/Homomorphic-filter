@@ -28,7 +28,7 @@ def myprocessing(mySetting, myPath, isWaveTransform, device):
     runTime = end - start
     print("运行时间：", runTime)
     mySetting.setTime(runTime)
-    mySetting.save(myPath.experinmetfloder)
+    # mySetting.save(myPath.experinmetfloder)
 
 
 if __name__ == '__main__':
